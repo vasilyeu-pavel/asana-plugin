@@ -1,0 +1,16 @@
+{
+  "short_name": "asana-plugin",
+  "name": "Asana Growity Plugin",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/index.html",
+  "gcm_sender_id": "103953800507",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8"
+}

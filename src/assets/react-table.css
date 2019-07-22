@@ -1,0 +1,100 @@
+/* Table */
+.ReactTable {
+  border: none;
+}
+
+.ReactTable .rt-thead.-header,
+.ReactTable .-pagination {
+  box-shadow: none;
+}
+
+.ReactTable .rt-tbody .rt-td {
+  font-size: 0.8125rem;
+  padding: 0.4375rem 1.0625rem;
+  border-left: 1px solid #e1e5eb;
+  border-bottom: 1px solid #e1e5eb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactTable .rt-thead .rt-tr {
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.ReactTable .rt-tbody .rt-td:first-of-type {
+  border-left: none;
+}
+
+.ReactTable .rt-tbody .tr-td {
+  border-bottom: none !important;
+}
+
+.ReactTable .rt-tr-group:last-of-type .rt-td {
+  border-bottom: none !important;
+}
+
+.ReactTable .rt-thead .rt-th {
+  background-color: #fbfbfb;
+  font-weight: 400;
+  padding: 0.75rem 1.0625rem !important;
+  font-size: 13px;
+  border: none;
+}
+
+.ReactTable .rt-tbody .rt-tr-group {
+  border: none;
+}
+
+/* Ascending & Descending Sort */
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: inset 0 3px 0 0 rgb(0, 123, 255);
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: inset 0 -3px 0 0 rgb(0, 123, 255);
+}
+
+/* Pagination */
+.ReactTable .-pagination {
+  font-size: 13px;
+  border: none;
+  border-top: 1px solid #e1e5eb;
+  padding: 0.4375rem 1.0625rem;
+}
+
+.ReactTable .-pagination .-btn {
+  padding: 0.4286rem 0.875rem;
+  width: auto;
+  color: #3d5170;
+  font-weight: 500;
+}
+
+.ReactTable .-pagination .-pageJump input {
+  width: 50px;
+}
+
+.ReactTable .-pagination .-next button {
+  margin-left: auto;
+}
+
+.ReactTable .-pagination button {
+  padding: 0.4286rem 0.875rem;
+  background: #fff !important;
+  border: 1px solid #e1e5eb !important;
+  border-radius: 0.25rem !important;
+}
+
+.ReactTable .-pagination button:hover {
+  color: #fff;
+  background: #007bff !important;
+}
+
+.ReactTable .-pagination .-btn[disabled],
+.ReactTable .-pagination .-btn[disabled]:hover {
+  background-color: #f2f4f5 !important;
+  color: #3d5170;
+}

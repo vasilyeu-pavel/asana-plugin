@@ -1,0 +1,38 @@
+/* Filters */
+.file-manager__filters {
+  padding: 0.625rem;
+}
+
+.file-manager__filters__rows {
+  font-size: 13px;
+  font-weight: 400;
+  color: #818ea3;
+}
+
+.file-manager__filters__rows span {
+  line-height: 30px;
+  margin-right: 5px;
+}
+
+.file-manager__filters__rows .custom-select {
+  display: table;
+  width: auto;
+  border: 1px solid #e1e5eb;
+  font-size: 0.625rem;
+  color: #818ea3;
+  height: 1.5625rem !important;
+  background-color: #fff;
+  border-radius: 0.375rem;
+  margin: 0 0.1875rem;
+  padding: 0 25px 0 10px;
+  margin-top: 3px;
+}
+
+.file-manager__filters__search input {
+  display: table;
+  min-width: 11.25rem;
+}
+
+.file-manager__filters__search .input-group {
+  width: auto;
+}
